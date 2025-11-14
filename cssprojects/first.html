@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        .box{
+            color: red;
+        }
+        div p{
+            color:rgb(0, 183, 255)
+        }
+        .box > p{
+            background-color: bisque;
+        }
+        div ~ p{
+            color: blueviolet;
+        }
+        a:hover{
+            color: black;
+            font-size: 30px;
+          
+        }
+        ul{ 
+             display: flex;
+    list-style: none;
+        }
+        ul li{
+            
+            padding-right: 20px;
+           border-right: 2px solid black ;
+           padding-left: 20px;
+           
+         }
+         ul li:nth-child(5){
+            border:0;
+         }
+         
+         
+        
+        
+        
+    </style>
+</head>
+<body>
+<div class="box">
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex aut quidem labore maxime voluptatum dolore corporis magni aspernatur rem? Distinctio deserunt illo iure. Quod, quos! Quisquam possimus impedit ea.</p>
+</div>
+<div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam suscipit quos corrupti, atque omnis rem commodi voluptate perspiciatis eius eligendi quisquam architecto, eum quae tenetur. Sint, labore modi? Expedita!</p>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus vitae accusamus velit optio doloremque, quaerat odio pariatur nisi perferendis tenetur maiores illo amet atque enim perspiciatis fugiat vero aspernatur.</p>
+<a href="/LabProjects/exp2wd.html"> click to navigate</a>
+<ul>
+    <li>home</li>
+    <li>srevices</li>
+    <li>about</li>
+    <li>gallery</li>
+    <li border="0">contact</li>
+    
+    
+</ul>
+</body>
+</html>
